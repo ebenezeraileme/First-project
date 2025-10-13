@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Train+One&display=swap");
+@import url("mobile.css"); 
+body {
+  margin: 0;
+  padding: 0;
+  /* max-width: 102px; */
+}
+nav {
+  background-color: #398e8a;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem;
+  font-family: inter;
+}
+.menu{
+    display: none;
+}
+.logo{
+    position: relative;
+    top: 75px;
+    top: 8px;
+    max-height: 8px;
+}
+nav .logo img {
+  width: 100px;
+}
+nav .links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+nav .links a {
+  text-decoration: none;
+  color: white;
+  font-family: Inter;
+}
+nav .btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 2px solid #d4bfec;
+  border-radius: 20px;
+  padding: 0.8rem 2rem;
+  font-family: "Train One", system-ui;
+}
+nav .btn span {
+  color: white;
+  font-size: 0.8rem;
+}
+header {
+  background-color: #074643;
+  height: 100vh;
+  color: white;
+  font-family: "inter", sans-serif;
+  display: flex;
+  align-items: flex-start;
+  /* gap: 10rem; */
+  padding: 5rem;
+}
+
+header .texts {
+  position: relative;
+  left: 10%;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  /* gap: 10rem; */
+  /* padding: 5rem; */
+  /* clip-path: polygon(0 0, 100% 0, 100% 62%, 0 87%); */
+}
+header .texts .txt {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  /* overflow: hidden; */
+}
+header .texts .txt {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+header .texts .txt #head {
+  font-family: "Train One", cursive;
+  font-size: 3rem;
+  font-weight: 100;
+}
+header .texts .txt small {
+  font-size: 1rem;
+  font-weight: 100;
+}
+header .texts .btns {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+header .texts .btns button {
+  background-color: #101c1b;
+  color: white;
+  font-family: inherit;
+  background-color: #101c1b;
+  font-size: 0.7rem;
+  padding: 0.8rem 1.2rem;
+}
+header .texts .btns .icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+.image {
+  position: relative;
+  bottom: 600px;
+  left: 55%;
+  max-width: fit-content;
+  
+  /* z-index: 9999999999; */
+}
+.image img {
+  width: 400px;
+  /* height: 100px; * */
+}
+.image .txte {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+  height: 100px;
+ bottom: 200px; 
+  right: 4.2%;
+  z-index: 1;
+  color: black;
+  max-width: fit-content; 
+  height: 100px;
+   padding: 0.5rem 1.5rem;
+  gap: 0.5rem;
+  border-radius: 30px;
+  font-weight: 900;
+  text-align: left;
+ }
+/* @media only screen and (max-width: 480px) {
+  nav {
+    flex-direction: column;
+  }
+  nav .links {
+    flex-direction: column;
+  }
+  nav .logo {
+    position: relative;
+    right: 140px;
+  }
+  nav .btn {
+    position: relative;
+    bottom: 330px;
+    left: 90px;
+  }
+} */
+
+.left {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  padding-top: 1rem;
+  margin-right: 6rem;
+}
+.left .abt {
+  font: bold;
+  font-family: inter;
+}
+.pet {
+  font-family: inter;
+  font-size: 12px;
+}
